@@ -1,7 +1,7 @@
 import App from 'next/app';
 import Nav from '../components/Nav';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: any) {
   return (
     <>
       <Nav />
@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-MyApp.getInitialProps = async ctx => {
+MyApp.getInitialProps = async (ctx : any) => {
   const appProps = await App.getInitialProps(ctx);
   return appProps;
 };
