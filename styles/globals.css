@@ -95,9 +95,26 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+nav {
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  padding: 4px 16px;
+}
+li {
+  display: flex;
+  padding: 6px 8px;
+}
 a {
-  color: inherit;
+  color: #067df7;
   text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-right: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
