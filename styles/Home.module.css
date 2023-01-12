@@ -1,10 +1,11 @@
-.main {
+.mainHome {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
   gap: 2rem;
+  background-color: aliceblue;
 }
 
 .description {

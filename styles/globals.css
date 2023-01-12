@@ -85,32 +85,25 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 nav {
   text-align: center;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
 }
 ul {
   display: flex;
   justify-content: space-between;
 }
-nav > ul {
-  padding: 4px 16px;
-}
+
 li {
   display: flex;
   padding: 6px 8px;
 }
 a {
-  color: #067df7;
+  color: whitesmoke;
   text-decoration: none;
   font-size: 1rem;
   text-transform: uppercase;
